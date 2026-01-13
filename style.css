@@ -344,7 +344,6 @@ ul li a{
 .outer_container{
     width: 100%;
     height:20rem;
-    border:1px solid red;
     position: relative;
     top: 50rem;
     display: flex;
@@ -359,8 +358,8 @@ ul li a{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap:3rem;
-    animation: movename 10s linear infinite;
+    gap:15rem;
+    animation: movename 30s linear infinite;
     position: absolute;
     right: 0;
 }
@@ -372,13 +371,16 @@ ul li a{
     font-size: 3rem;
     color: rgb(18, 79, 25);
     position: relative;
-    top: 45rem;
+    top: 50rem;
 }
-
+.images_of_slider{
+    width: 10rem;
+    height: 3rem;
+}
 #names{
     width: 10rem;
     height:3rem;
-    border:1px solid blue;
+
 }
 
 @keyframes movename{
@@ -391,10 +393,72 @@ ul li a{
     50%{
         left:100%;
     }
-    75%{
+    /* 75%{
         left: 100%;
-    }
+    } */
     to{
         left:0%;
     }
+}
+.footer{
+    width: 100vw;
+    height: 40rem;
+    border: 1px solid black;
+    position: relative;
+    top:50rem;
+    background-color: rgb(31, 78, 74);
+}
+.footer_table{
+    width: 100vw;
+    height: 30rem;
+    border: 1px solid red;
+    position: absolute;
+    top: 5rem;
+}
+.row_1{
+    position: relative;
+    top:5rem;
+    right: 5rem;
+}
+.column_1{
+    border: 1px solid black;
+    width: 20%;
+}
+.list_foot{
+    color: red;
+}
+.heading_1{
+    color:white;
+    text-align: center;
+    position:absolute;
+    top: 3rem;
+}
+.sub_heading_foot1{
+    color:gold;
+    position: absolute;
+    top: 8rem;
+    left:1rem;
+}
+.sub_heading_foot2{
+    color:gold;
+    position: absolute;
+    top: 17rem;
+    left: 1rem;
+}
+.sign_up_button{
+    width:9rem;
+    height: 3rem;
+    border-radius: 25px;
+    position: absolute;
+    top:11rem;
+    font-size: 1.5rem;
+}
+.sharing_images{
+    position: absolute;
+    top:20rem;
+}
+.insta_image{
+    width:2.5rem;
+    height: auto;
+    border-radius: 5px;
 }
