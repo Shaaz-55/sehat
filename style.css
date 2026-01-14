@@ -51,7 +51,6 @@ body{
     position: relative;
     left:5vh;
     font-family:'Times New Roman', Times, serif;
-
 }
 .nav_links{
     list-style: none;
@@ -105,6 +104,7 @@ ul li a{
     right:50px;
     font-family: Arial;
     top:8px;
+    text-decoration: none;
 }
 .doc_img{
     width:55rem;
@@ -403,29 +403,15 @@ ul li a{
 .footer{
     width: 100vw;
     height: 40rem;
-    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
     position: relative;
     top:50rem;
-    background-color: rgb(31, 78, 74);
-}
-.footer_table{
-    width: 100vw;
-    height: 30rem;
-    border: 1px solid red;
-    position: absolute;
-    top: 5rem;
-}
-.row_1{
-    position: relative;
-    top:5rem;
-    right: 5rem;
-}
-.column_1{
-    border: 1px solid black;
-    width: 20%;
+    background-color: rgb(31, 78, 74,1.3);
+    color: white;
 }
 .list_foot{
-    color: red;
+    list-style: none;
 }
 .heading_1{
     color:white;
@@ -456,9 +442,51 @@ ul li a{
 .sharing_images{
     position: absolute;
     top:20rem;
+    display: flex;
+    gap:1rem;
 }
 .insta_image{
     width:2.5rem;
     height: auto;
     border-radius: 5px;
+}
+.anchor{
+    color: white;
+}
+.contact_foot{
+    color:rgb(18, 79, 25);
+    font-size: 20px;
+    width:180px;
+    height:40px;
+    padding:5px;
+    text-align: center;
+    border-radius: 25px;
+    border:1px solid rgb(18, 79, 25);
+    transition: all 0.3s ease-in-out;
+    font-family: Arial;
+    background-color: white;
+    cursor: pointer;
+}
+.footer_bottom{
+    position: relative;
+    top: 40rem;
+    left:75rem;
+    color: rgb(255,255,255,1);
+}
+.border{
+    position: relative;
+    top:38rem;
+    left:22rem;
+    width: 70vw;
+    border: 1px solid white;
+}
+.footer_ending{
+    display: flex;
+    gap:3rem;
+    color: white;
+    position: relative;
+    top: 42rem;
+    left:51rem;
+    text-decoration: none;
+    list-style: none;
 }
