@@ -1,75 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact a advisor</title>
-    <link rel="stylesheet" href="button.css">
-</head>
-    <nav class="navbar">
-        <div class="company_name">Sehat</div>
-        <ul class="nav_links">
-            <li class="labs"><a href="#">Labs</a></li>
-            <li class="consult"><a href="#">Consult</a></li>
-            <li class="medicines"><a href="#">Medicines</a></li>
-            <li class="members"><a href="#">Members</a></li>
-        </ul>
-        <button class="contact">Contact a doctor</button>
-        <div class="login">Login →</div>
-    </nav>
-<body>
-    <div class="text">
-        <h1 class="heading">We’re here to listen.</h1>
-        <h1></h1>
-        <p class="para">Book your free 15-minute consultation with a Sehat Health Advisor to talk through your <br> goals, care options, and what working with Sehat looks like. Explore details and <br>pricing for our Complete Care program ahead of your call.</p>
-    </div>
-    <div class="container">
-        <form>
-            <label for="first">FIRST NAME</label>
-            <input type="text" id="first" required placeholder="First Name" name="first"/>
-            <label for="last">LAST NAME</label>
-            <input type="text" id="last" required placeholder="Last Name" name="last"/>
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" required placeholder="Email" name="email"/>
-            <label for="phone_number">PHONE NUMBER</label>
-            <input type="text" id="phone_number" required placeholder="Phone Number" name="phone_number"/>
-            <label for="state">STATE</label>
-            <select id="state" name="state" multiple>
-                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                <option value="Assam">Assam</option>
-                <option value="Bihar">Bihar</option>
-                <option value="Chhattisgarh">Chhattisgarh</option>
-                <option value="Goa">Goa</option>
-                <option value="Gujarat">Gujarat</option>
-                <option value="Haryana">Haryana</option>
-                <option value="Himachal Pradesh">Himachal Pradesh</option>
-                <option value="Jharkhand">Jharkhand</option>
-                <option value="Karnataka">Karnataka</option>
-                <option value="Kerala">Kerala</option>
-                <option value="Madhya Pradesh">Madhya Pradesh</option>
-                <option value="Maharashtra">Maharashtra</option>
-                <option value="Manipur">Manipur</option>
-                <option value="Meghalaya">Meghalaya</option>
-                <option value="Mizoram">Mizoram</option>
-                <option value="Nagaland">Nagaland</option>
-                <option value="Odisha">Odisha</option>
-                <option value="Punjab">Punjab</option>
-                <option value="Rajasthan">Rajasthan</option>
-                <option value="Sikkim">Sikkim</option>
-                <option value="Tamil Nadu">Tamil Nadu</option>
-                <option value="Telangana">Telangana</option>
-                <option value="Tripura">Tripura</option>
-                <option value="Uttar Pradesh">Uttar Pradesh</option>
-                <option value="Uttarakhand">Uttarakhand</option>
-                <option value="West Bengal">West Bengal</option>
-            </select>
-        </form>
-    </div>
-
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,26 +8,23 @@
 </head>
 
 <body>
+<nav class="navbar">
+        <div class="company_name">Sehat</div>
+        <ul class="nav_links">
+            <li class="labs"><a href="#">Labs</a></li>
+            <li class="consult"><a href="button func/button.html">Consult</a></li>
+            <li class="medicines"><a href="#">Medicines</a></li>
+            <li class="members"><a href="members/index.html">Members</a></li>
+        </ul>
+        <a href="button func/button.html">
+        <button class="contact">Contact a doctor</button>
+        </a>
+        <a href="login page/index.html">
+        <div class="login">Login →</div>
+        </a>
+    </nav>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="logo">Sehat</div>
-
-    <ul class="nav-links">
-      <li><a href="#">Labs</a></li>
-      <li><a href="#">Consult</a></li>
-      <li><a href="#">Medicines</a></li>
-      <li><a href="#">Members</a></li>
-    </ul>
-
-    <div class="nav-actions">
-      <button class="btn-outline">Contact a doctor</button>
-      <span class="login">Login →</span>
-    </div>
-  </nav>
-
-  <!-- HERO SECTION -->
-  <section class="hero">
+  <section class="message">
     <h1>We’re here to listen.</h1>
     <p>
       Book your free 15-minute consultation with a Sehat Health Advisor to talk
@@ -107,33 +32,32 @@
     </p>
   </section>
 
-  <!-- FORM SECTION -->
-  <section class="form-section">
-    <div class="form-card">
+  <section class="form_section">
+    <div class="form_card">
       <h2>Book a free consultation</h2>
 
       <form>
-        <div class="form-group">
+        <div class="form_group">
           <label>First Name</label>
           <input type="text" placeholder="First name" required />
         </div>
 
-        <div class="form-group">
+        <div class="form_group">
           <label>Last Name</label>
           <input type="text" placeholder="Last name" required />
         </div>
 
-        <div class="form-group">
+        <div class="form_group">
           <label>Email</label>
           <input type="email" placeholder="Email address" required />
         </div>
 
-        <div class="form-group">
+        <div class="form_group">
           <label>Phone Number</label>
           <input type="tel" placeholder="Phone number" required />
         </div>
 
-        <div class="form-group">
+        <div class="form_group">
           <label>State</label>
           <select required>
             <option value="">Select your state</option>
@@ -149,7 +73,7 @@
           </select>
         </div>
 
-        <button type="submit" class="btn-primary">
+        <button type="submit" class="btn_primary">
           Schedule my free call
         </button>
       </form>

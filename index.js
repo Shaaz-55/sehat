@@ -18,7 +18,7 @@
 const chat_button = document.getElementById('chat_button');
 const chat_box = document.getElementById('chat_box');
 
-chat_button.addEventListener('click',function(){
+chat_button.addEventListener('click',function()){
       chat_box.classList.toggle('hidden');
       chat_box.classList.toggle('visible');
-})
+}

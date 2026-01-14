@@ -17,13 +17,7 @@ body{
     padding: 5px;
     position: static;
 }
-/* @media (min-width: 769px) and (max-width: 2000px){
-    .above_navbar{
-        width: 100vh;
-        height: auto;
-        padding: 0.5rem;
-    }
-} */
+
 @media (min-width:481px) and (max-width:768px){
     .above_navbar{
         width: 100vh;
@@ -208,4 +202,9 @@ ul li a{
     left:51rem;
     text-decoration: none;
     list-style: none;
+}
+@media (min-width:768px) {
+    .grid_container{
+        grid-template-rows: repeat(16,1fr);
+    }
 }

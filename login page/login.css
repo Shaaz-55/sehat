@@ -1,13 +1,13 @@
-/* GLOBAL RESET */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* BODY */
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background: #f6f7f8;
   color: #333;
   display: flex;
@@ -16,56 +16,56 @@ body {
   height: 100vh;
 }
 
-/* LOGIN PAGE WRAPPER */
-.login-page {
+
+.login_page {
   width: 100%;
   max-width: 400px;
   padding: 1rem;
   margin: auto;
 }
 
-/* FORM CARD */
-.form-container {
+
+.form_container {
   background: #ffffff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-.form-container h2 {
+.form_container h2 {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
   color: #123f19;
 }
 
-/* INPUT FIELDS */
-.input-group {
+
+.input_group {
   margin-bottom: 1.2rem;
   display: flex;
   flex-direction: column;
 }
 
-.input-group label {
+.input_group label {
   font-size: 0.9rem;
   margin-bottom: 0.3rem;
   color: #555;
 }
 
-.input-group input {
+.input_group input {
   padding: 0.9rem;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 1rem;
 }
 
-.input-group input:focus {
+.input_group input:focus {
   outline: none;
   border-color: #123f19;
 }
 
-/* FORGOT PASSWORD LINK */
-.forgot-password {
+
+.forgot_password {
   display: block;
   text-align: right;
   font-size: 0.85rem;
@@ -74,14 +74,14 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.forgot-password:hover {
+.forgot_password:hover {
   text-decoration: underline;
 }
 
-/* LOGIN BUTTON */
-.btn-login {
+
+.btn_login {
   width: 100%;
-  padding: 0.9rem;
+  padding: 1rem;
   background: #123f19;
   color: white;
   border: none;
@@ -91,23 +91,20 @@ body {
   transition: 0.2s;
 }
 
-.btn-login:hover {
+.btn_login:hover {
   background: #0f3316;
 }
 
-/* SIGNUP TEXT */
-.signup-text {
+
+.signup_text {
   text-align: center;
   margin-top: 1.2rem;
   font-size: 0.85rem;
 }
 
-.signup-text a {
+.signup_text a {
   text-decoration: none;
   color: #123f19;
   font-weight: 600;
 }
 
-.signup-text a:hover {
-  text-decoration: underline;
-}
